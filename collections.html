@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra | Collections</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <h2>Nostra</h2>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="collections.html" class="active">Collections</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <div class="menu-icon" id="menuIcon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!-- MOBILE MENU -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <div class="close-btn" id="closeMenu">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <a href="index.html">Home</a>
+        <a href="collections.html">Collections</a>
+        <a href="contact.html">Contact</a>
+
+    </div>
+
+    <!-- PAGE TITLE -->
+
+    <section class="page-title">
+
+        <h1>Collections</h1>
+
+        <p>Browse our latest fashion collections.</p>
+
+    </section>
+
+    <!-- SEARCH -->
+
+    <section class="search-section">
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text" id="search" placeholder="Search Products...">
+
+        </div>
+
+    </section>
+
+    <!-- COLLECTION -->
+
+    <section class="collection-container">
+
+        <!-- FILTER -->
+
+        <aside class="filter">
+
+            <h3>Filter</h3>
+
+            <h4>Category</h4>
+
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="Men">
+                Men
+            </label>
+
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="Women">
+                Women
+            </label>
+
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="Kids">
+                Kids
+            </label>
+
+        </aside>
+
+        <!-- PRODUCTS -->
+
+        <div class="products-grid" id="productContainer">
+
+            <div class="collection-card" data-name="Classic Shirt" data-category="Men">
+
+                <img src="/images/t shirt.jpg" alt="t shirt">
+
+                <h3>Classic Shirt</h3>
+
+                <p>Men</p>
+
+                <span>₹899</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Black Hoodie" data-category="Men">
+
+                <img src="/images/b hoodie.jpg" alt="b hoodie">
+
+                <h3>Black Hoodie</h3>
+
+                <p>Men</p>
+
+                <span>₹1299</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Blue Jeans" data-category="Men">
+
+                <img src="/images/blue jeans.jpg" alt="blue jeans">
+
+                <h3>Blue Jeans</h3>
+
+                <p>Men</p>
+
+                <span>₹1499</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Pink Dress" data-category="Women">
+
+                <img src="/images/pink dress.jpg" alt="pink dress">
+
+                <h3>Pink Dress</h3>
+
+                <p>Women</p>
+
+                <span>₹1799</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Winter Jacket" data-category="Women">
+
+                <img src="/images/w coat.jpg" alt="w coat">
+
+                <h3>Winter Jacket</h3>
+
+                <p>Women</p>
+
+                <span>₹2299</span>
+
+            </div>
+
+            <div class="collection-card" data-name="White Top" data-category="Women">
+
+                <img src="/images/white top.jpg" alt="white top">
+
+                <h3>White Top</h3>
+
+                <p>Women</p>
+
+                <span>₹999</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Kids T-Shirt" data-category="Kids">
+
+                <img src="/images/k tshirt.jpg" alt="k tshirt">
+
+                <h3>Kids T-Shirt</h3>
+
+                <p>Kids</p>
+
+                <span>₹599</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Kids Hoodie" data-category="Kids">
+
+                <img src="/images/k hoodie.jpg" alt="k hoodie">
+
+                <h3>Kids Hoodie</h3>
+
+                <p>Kids</p>
+
+                <span>₹899</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Kids Jacket" data-category="Kids">
+
+                <img src="/images/k jacket.jpg" alt="k jacket">
+
+                <h3>Kids Jacket</h3>
+
+                <p>Kids</p>
+
+                <span>₹1199</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Formal Shirt" data-category="Men">
+
+                <img src="/images/formal shirt.jpg" alt="formal shirt">
+
+                <h3>Formal Shirt</h3>
+
+                <p>Men</p>
+
+                <span>₹1099</span>
+
+            </div>
+            <div class="collection-card" data-name="Casual Polo" data-category="Men">
+
+                <img src="/images/polo.jpg" alt="polo">
+
+                <h3>Casual Polo</h3>
+
+                <p>Men</p>
+
+                <span>₹999</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Oversized T-Shirt" data-category="Men">
+
+                <img src="/images/oversize.jpg" alt="oversize">
+
+                <h3>Oversized T-Shirt</h3>
+
+                <p>Men</p>
+
+                <span>₹899</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Floral Dress" data-category="Women">
+
+                <img src="/images/summer.jpg" alt="summer">
+
+                <h3>Floral Dress</h3>
+
+                <p>Women</p>
+
+                <span>₹1899</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Women's Hoodie" data-category="Women">
+
+                <img src="/images/b hoodie.jpg" alt="b hoodie">
+
+                <h3>Women's Hoodie</h3>
+
+                <p>Women</p>
+
+                <span>₹1499</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Denim Jacket" data-category="Women">
+
+                <img src="/images/denim.jpg" alt="denim">
+
+                <h3>Denim Jacket</h3>
+
+                <p>Women</p>
+
+                <span>₹2199</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Kids Shorts" data-category="Kids">
+
+                <img src="/images/k shorts.jpg" alt="k shorts">
+
+                <h3>Kids Shorts</h3>
+
+                <p>Kids</p>
+
+                <span>₹499</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Kids Party Wear" data-category="Kids">
+
+                <img src="/images/party wear.jpg" alt="party wear">
+
+                <h3>Kids Party Wear</h3>
+
+                <p>Kids</p>
+
+                <span>₹1399</span>
+
+            </div>
+
+            <div class="collection-card" data-name="Kids Sneakers" data-category="Kids">
+
+                <img src="/images/sneakers.jpg" alt="sneakers">
+
+                <h3>Kids Sneakers</h3>
+
+                <p>Kids</p>
+
+                <span>₹999</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NEWSLETTER -->
+
+    <section class="newsletter">
+
+        <h2>Join Our Newsletter</h2>
+
+        <p>
+            Subscribe to receive the latest fashion updates,
+            exclusive offers, and new arrivals.
+        </p>
+
+        <div class="newsletter-box">
+
+            <input type="email" placeholder="Enter your email">
+
+            <button>Subscribe</button>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+
+                <h2>Nostra</h2>
+
+                <p>
+                    Your one-stop destination for premium fashion.
+                    Shop trendy collections at affordable prices.
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="collections.html">Collections</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-contact">
+
+                <h3>Contact</h3>
+
+               <p>Email : buy@nostra.com</p>
+
+                <p>Phone : +91 87451 97697</p>
+
+                <p>Madurai, Tamil Nadu</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            © 2026 Nostra. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <button id="topBtn">↑</button>
+
+</body>
+
+</html>
